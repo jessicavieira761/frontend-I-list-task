@@ -1,0 +1,10 @@
+/* Estilos gerais */
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+.container { background: #fff; max-width: 600px; margin: 40px auto; padding: 25px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+h1 { color: #1a5e3a; text-align: center; }
+#form-nova-tarefa { display: flex; margin-bottom: 25px; }
+#input-nova-tarefa { flex-grow: 1; border: 2px solid #ddd; padding: 10px; font-size: 1rem; }
+#form-nova-tarefa button { background-color: #1a5e3a; color: #fff; border: none; padding: 0 20px; cursor: pointer; }
+#lista-de-tarefas { list-style: none; padding: 0; }
+#lista-de-tarefas li { background: #f9f9f9; padding: 15px; border-bottom: 1px solid #eee; }
+.tarefa-concluida { text-decoration: line-through; color: #999; }
